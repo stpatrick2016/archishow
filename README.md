@@ -16,3 +16,13 @@ archishow.exe [-p|--path "path to file or folder"]
 |---|---|
 |-p, --path|Full path to a file or folder|
 
+### Examples:
+List all executable files in the current directory and save in \_files.csv file:
+```
+archishow.exe > _files.csv
+```
+
+List all executable files in specific folder _C:\My Folder_
+```
+archishow.exe -p "C:\My Folder"
+```
